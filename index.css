@@ -21,6 +21,9 @@
     gap: 20px;             
     justify-content: center;
 }
+div image {
+    width: 100px;
+}
 
 
 
