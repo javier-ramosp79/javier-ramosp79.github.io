@@ -1,3 +1,9 @@
+
+
+.trabajos img {
+    width: 200;
+    margin: -10;
+}
 .boton-proyectos {
     display: inline-block;
     background-color: #007bff;
@@ -9,21 +15,120 @@
     transition: background-color 0.3s;
 }
 
-.boton-proyectos:hover {
+.columnas{
+    display: flex;
+    flex-wrap: wrap;       
+    gap: 20px;             
+    justify-content: center;
+}
+
+
+
+    /* <------------------ REDES LOCALES ---------------------> */
+#redes {
+    background-color: white;
+    background-image: linear-gradient(to right, #e2e8f0 1px, transparent 1px),
+                      linear-gradient(to bottom, #e2e8f0 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+#redes .boton-proyectos {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#redes .boton-proyectos:hover {
     background-color: #0056b3;
 }
-.trabajos {
+
+#redes .trabajos {
     display: flex; 
     align-items: center; 
     gap: 20px; 
+    width: 600;
+
+    background-color: aliceblue;
+
     
     border: 2px solid black;   
     border-radius: 10px;
     padding: 20px;
-    margin-bottom: 20px;       
+    margin-bottom: 20px;     
+    margin: 25;
+    zoom: 1.2;
+      
 }
 
-.tarjeta-curso img {
-    width: 200px; /* Ancho fijo para la imagen */
-    border-radius: 5px;
+
+#redes h1 {
+    font-size: 100; 
+    text-align: center; 
+    border-bottom: 3px solid #0056b3
 }
+
+#redes h3 {
+    font-size: 25;
+}
+    /* <------------------ REDES LOCALES ---------------------> */
+
+    /* <------------------ SOM ---------------------> */
+#som {
+    background-color: white;
+    background-image: linear-gradient(to right, #e2e8f0 1px, transparent 1px),
+                      linear-gradient(to bottom, #e2e8f0 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+#som .boton-proyectos {
+    display: inline-block;
+    background-color: #ffd700;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#som .boton-proyectos:hover {
+    background-color: #ccac00;
+}
+
+#som .trabajos {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    width: 600;
+
+    background-color: #fefdf0;
+
+    
+    border: 2px solid black;   
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;     
+    margin: 25;
+    zoom: 1.2;
+      
+}
+
+
+#som h1 {
+    font-size: 100; 
+    text-align: center; 
+    border-bottom: 3px solid #ccac00;
+}
+
+#som h3 {
+    font-size: 25;
+}
+    /* <------------------ SOM ---------------------> */
+
+
+
